@@ -1,8 +1,25 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+        <title>RepeatCount</title>
     </head>
     <body>
-      <p> Hello</p>
-    </body>
-</html>
+        <div class = "container">
+        <h1>Find out how many times a word are in sentence!!!!</h1>
+
+           <form action="/word_count" method="post">
+            <div class="form-group">
+                <label for="sentence">Enter the sentence:</label>
+                <input type="text" id="sentence" class="form-control"  name="sentence" >
+
+                <label for="word">Enter your word and search for:</label>
+                <input type="text" id="word" class="form-control" name="word">
+
+            </div>
+            <button type="submit" class="btn btn-success">Count Your words!</button>
+        </form>
+   </div>
+
+</body>
+</htm>
