@@ -17,7 +17,7 @@
         $results = new RepeatCountGenerator;
 
         $result_word = $results->makeRepeatCount($input_words, $input_sentence);
-        return $app['twig']->render('word_count.twig', array('word_count' => $result_word));
+        return $app['twig']->render('word_count.twig', array('word_count' => $result_word, 'user_word' => $input_words));
     });
     return $app;
 ?>
