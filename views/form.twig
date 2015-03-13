@@ -8,13 +8,13 @@
         <div class = "container">
         <h1>Find out how many times a word are in sentence!!!!</h1>
 
-           <form action="/word_count" method="post">
+           <form action="/word_count" method="post" data-toggle="validator" role="form">
             <div class="form-group">
                 <label for="sentence">Enter the sentence:</label>
-                <input type="text" id="sentence" class="form-control"  name="sentence" >
+                <input type="text" id="sentence" class="form-control"  name="sentence" required >
 
                 <label for="word">Enter your word and search for:</label>
-                <input type="text" id="word" class="form-control" name="word">
+                <input type="text" id="word" class="form-control" name="word" required>
 
             </div>
             <button type="submit" class="btn btn-success">Count Your words!</button>

@@ -5,6 +5,7 @@
         function makeRepeatCount($input_word, $input_sentence)
         {
             {
+                
                 $lowecase_user_inpute = strtolower($input_word);
                 $lowercase_sentence = strtolower($input_sentence);
                 $userinput_array = explode(" ", $lowercase_sentence);
