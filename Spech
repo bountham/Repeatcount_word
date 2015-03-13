@@ -1,0 +1,25 @@
+1.
+    input: "t", "t"
+    output: 1
+    Specs: input the word t  and  t string of t one letter
+
+2.
+    input: "home", "home"
+    output: 1
+    Specs: count the number of  h is in t string of home in the  single word.
+
+3.
+    input: "home", "run"
+    output: 0
+    Specs: This time  the word don't match so the it return no match find;
+
+4.
+    input: "t", "t t t a"
+    output: 4
+    Specs: break the up  string "t t t t a" and count how many times t is
+    in the string.
+
+5.
+    input: "dog", "what kinda the dog do you got and what kinda the dog"
+    output: 2
+    Specs: Count how many times dog is in the sentence.
