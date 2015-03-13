@@ -15,8 +15,8 @@
 
 4.
     input: "t", "t t t a"
-    output: 4
-    Specs: break the up  string "t t t t a" and count how many times t is
+    output: 3
+    Specs: break the up  string "t t t a" and count how many times t is
     in the string.
 
 5.
